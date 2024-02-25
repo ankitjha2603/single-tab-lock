@@ -1,0 +1,25 @@
+{
+  "name": "single-tab-lock",
+  "version": "1.0.0",
+  "description": "An npm package to restrict users from opening multiple tabs of a single website.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitjha2603/single-tab-lock.git"
+  },
+  "keywords": [
+    "prevent",
+    "multiple",
+    "tabs"
+  ],
+  "author": "Ankit Kumar Jha",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ankitjha2603/single-tab-lock/issues"
+  },
+  "homepage": "https://github.com/ankitjha2603/single-tab-lock#readme"
+}
