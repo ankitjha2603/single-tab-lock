@@ -42,6 +42,7 @@ export const preventMultipleTabs = (
       }
       window.requestAnimationFrame(main);
     };
+    window.requestAnimationFrame(main);
     //---------------------------------------------->
   }
 };
