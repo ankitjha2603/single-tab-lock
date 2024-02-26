@@ -36,7 +36,7 @@ preventMultipleTabs({
 
 Options object for customizing the behavior.
 
-````javascript
+```javascript
 {
   // Custom error message to display when multiple tabs are detected. Default is a generic message.
   errorMessage: "Custom error message",
@@ -55,7 +55,8 @@ Options object for customizing the behavior.
     // The speed of internal updates (frames per second).
     updateSpeed: 5,
   },
-}```
+}
+```
 
 ## Notes
 
@@ -68,8 +69,10 @@ Options object for customizing the behavior.
 - **Customization:** The animation section in the code can be customized or disabled based on your specific requirements. Adjust the `config` object in the function call to control the internal processing speed.
 
 - **Security Considerations:** Keep in mind that client-side solutions like this can be manipulated by users. If security is a critical concern, consider combining this approach with server-side validation.
-````
+
+```
 
 ## License
 
 `Apache License Version 2.0, January 2004 (http://www.apache.org/licenses/)`
+```
