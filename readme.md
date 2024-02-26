@@ -1,6 +1,6 @@
 # single-tab-lock
 
-[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=1.0.4&x2=0)](https://www.npmjs.com/package/single-tab-lock) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-brightgreen)](http://www.apache.org/licenses/)
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=1.0.5&x2=0)](https://www.npmjs.com/package/single-tab-lock) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-brightgreen)](http://www.apache.org/licenses/)
 
 An npm package to restrict users from opening multiple tabs of a single website.
 

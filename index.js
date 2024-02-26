@@ -30,15 +30,9 @@ export const preventMultipleTabs = (options = {}) => {
     //---------------------------------------------->
     // SECTION: Animation
     const { updateSpeed } = config;
-    let lastTimeUpdate = -1000 / updateSpeed;
-    const main = (ctime) => {
-      if (ctime - lastTimeUpdate >= 1000 / updateSpeed) {
-        localStorage.setItem(unique_key, new Date() * 1);
-        lastTimeUpdate = ctime;
-      }
-      window.requestAnimationFrame(main);
-    };
-    window.requestAnimationFrame(main);
+    setInterval(() => {
+      localStorage.setItem(unique_key, new Date() * 1);
+    }, 1000 / updateSpeed);
     //---------------------------------------------->
   }
 };
