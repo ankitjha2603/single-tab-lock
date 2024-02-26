@@ -1,6 +1,6 @@
 {
   "name": "single-tab-lock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An npm package to restrict users from opening multiple tabs of a single website.",
   "main": "index.js",
   "type": "module",
